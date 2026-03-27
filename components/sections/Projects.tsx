@@ -17,8 +17,11 @@ export function Projects() {
           Here are some of my recent works that showcase my skills and problem-solving abilities.
         </p>
       </div>
-
       <div className="max-w-[100vw] mx-auto relative flex overflow-hidden">
+        {/* Left/Right Gradients for smooth fade */}
+        <div className="absolute left-0 top-0 bottom-0 w-24 sm:w-32 bg-gradient-to-r from-slate-50 dark:from-slate-900/50 to-transparent z-10 pointer-events-none"></div>
+        <div className="absolute right-0 top-0 bottom-0 w-24 sm:w-32 bg-gradient-to-l from-slate-50 dark:from-slate-900/50 to-transparent z-10 pointer-events-none"></div>
+
         <div className="flex animate-marquee w-max hover:[animation-play-state:paused] py-4">
           {/* First set */}
           <div className="flex gap-6 pr-6">
